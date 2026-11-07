@@ -8,7 +8,7 @@
     *   Consolidar código limpio, portable y eficiente orientado al desarrollo de sistemas embebidos autónomos y robótica.
 
 ## 2. Especificaciones del Circuito y Hardware Base
-*   **Microcontrolador Principal:** STM32F103C8T6 ("Blue Pill", Core ARM Cortex-M3 de 32 bits, operando a 72 MHz)[cite: 1].
+*   **Microcontrolador Principal:** STM32F103C8T6 ("Blue Pill", Core ARM Cortex-M3 de 32 bits, operando a 72 MHz)
 *   **Memoria:** 64 KB / 128 KB de Flash, 20 KB de SRAM.
 *   **Toolchain y Entorno:** STM32CubeIDE (v1.9 o superior) utilizando la capa de abstracción HAL de ST.
 *   **Diagrama de Pines de Referencia:**

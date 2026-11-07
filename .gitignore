@@ -1,0 +1,19 @@
+# --- Build Outputs & Binaries (Esto NUNCA se sube) ---
+Debug/
+Release/
+build/
+bin/
+obj/
+*.elf
+*.hex
+*.bin
+*.map
+*.list
+
+# --- Object, Dependency & Temporary Files ---
+*.o
+*.d
+*.su
+*.cyclo
+*.lst
+*.tmp
