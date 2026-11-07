@@ -1,0 +1,19 @@
+08:29:11 **** Incremental Build of configuration Debug for project 03.Leds_EstructurasNB ****
+make -j12 all 
+arm-none-eabi-gcc -o "03.Leds_EstructurasNB.elf" @"objects.list"   -mcpu=cortex-m3 -T"C:\Users\Carlitoz MF\Documents\Microcontroladores\Taller_Robotica\Proyectos\03.Leds_EstructurasNB\STM32F103C8TX_FLASH.ld" --specs=nosys.specs -Wl,-Map="03.Leds_EstructurasNB.map" -Wl,--gc-sections -static --specs=nano.specs -mfloat-abi=soft -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: 03.Leds_EstructurasNB.elf
+ 
+arm-none-eabi-size  03.Leds_EstructurasNB.elf 
+arm-none-eabi-objdump -h -S 03.Leds_EstructurasNB.elf  > "03.Leds_EstructurasNB.list"
+   text	   data	    bss	    dec	    hex	filename
+   4756	     52	   1580	   6388	   18f4	03.Leds_EstructurasNB.elf
+arm-none-eabi-objcopy  -O ihex 03.Leds_EstructurasNB.elf  "03.Leds_EstructurasNB.hex"
+arm-none-eabi-objcopy  -O binary 03.Leds_EstructurasNB.elf  "03.Leds_EstructurasNB.bin"
+Finished building: default.size.stdout
+ 
+Finished building: 03.Leds_EstructurasNB.hex
+Finished building: 03.Leds_EstructurasNB.list
+Finished building: 03.Leds_EstructurasNB.bin
+ 
+ 
+ 
